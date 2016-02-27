@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "typings bundle . -o bundle.d.ts && ts-node test.ts"
+  },
+  "devDependencies": {
+    "batch": "^0.5.3",
+    "ts-node": "^0.5.5",
+    "typescript": "^1.8.2",
+    "typings": "^0.6.8"
+  }
+}
