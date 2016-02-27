@@ -4,8 +4,5 @@
   "homepage": "https://github.com/visionmedia/batch",
   "ambientDependencies": {
     "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#48c1e3c1d6baefa4f1a126f188c27c4fefd36bff"
-  },
-  "devDependencies": {
-    "split": "file:index.d.ts"
   }
 }

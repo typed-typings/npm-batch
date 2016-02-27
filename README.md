@@ -1,6 +1,6 @@
-# Typed Split
+# Typed Batch
 
-The type definition for [`split`](https://github.com/dominictarr/split).
+The type definition for [`batch`](https://github.com/visionmedia/batch).
 
 ## License
 
