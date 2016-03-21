@@ -1,7 +1,14 @@
 {
-  "files": [
-    "test.ts",
-    "index.d.ts",
-    "typings/main.d.ts"
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules",
+    "typings/browser",
+    "typings/browser.d.ts",
+    "test",
+    "bundle",
+    "source-test"
   ]
 }

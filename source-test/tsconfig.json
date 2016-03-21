@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "files": [
+    "../typings/main.d.ts",
+    "../bundle/main.d.ts",
+    "batch.ts"
+  ]
+}

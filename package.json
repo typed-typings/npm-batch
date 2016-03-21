@@ -1,11 +1,17 @@
 {
   "scripts": {
-    "test": "typings bundle . -o bundle.d.ts && ts-node test.ts"
+    "build": "typings bundle -o bundle",
+    "source-test": "cd source-test && mocha batch.ts --require ts-node/register && cd ..",
+    "test": "cd test && ts-node test.ts && cd .."
   },
   "devDependencies": {
     "batch": "^0.5.3",
-    "ts-node": "^0.5.5",
-    "typescript": "^1.8.2",
-    "typings": "^0.6.8"
+    "blue-tape": "^0.2.0",
+    "mocha": "^2.4.5",
+    "ts-node": "^0.7.0",
+    "tslint": "github:unional/tslint",
+    "tslint-config-typings": "^0.1.2",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
   }
 }
