@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch": "onchange **/*.d.ts -e out/**  -- npm run build",
+    "watch": "onchange '**/*.d.ts' -e 'out/**'  -- npm run build",
     "build": "typings bundle -o out",
     "source-test": "mocha source-test/*.ts --require ts-node/register",
     "test": "ts-node test/test.ts",
