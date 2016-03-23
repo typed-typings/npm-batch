@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "typings bundle -o out",
-    "source-test": "mocha source-test/batch.ts --require ts-node/register",
+    "source-test": "mocha source-test/*.ts --require ts-node/register",
     "test": "ts-node test/test.ts"
   },
   "devDependencies": {
