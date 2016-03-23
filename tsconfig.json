@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "outDir": "out"
   },
   "exclude": [
     "node_modules",
     "typings/browser",
     "typings/browser.d.ts",
-    "test",
-    "bundle",
-    "source-test"
+    "out/browser.d.ts",
+    "source"
   ]
 }
