@@ -1,13 +1,16 @@
 {
   "scripts": {
+    "watch": "node scripts/watch.js",
     "build": "typings bundle -o out",
     "source-test": "mocha source-test/*.ts --require ts-node/register",
-    "test": "ts-node test/test.ts"
+    "test": "ts-node test/test.ts",
+    "test-all": "npm test && npm run source-test"
   },
   "devDependencies": {
     "batch": "^0.5.3",
     "blue-tape": "^0.2.0",
     "mocha": "^2.4.5",
+    "onchange": "^2.1.2",
     "ts-node": "^0.7.0",
     "tslint": "github:unional/tslint",
     "tslint-config-typings": "^0.1.2",
