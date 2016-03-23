@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch": "node scripts/watch.js",
+    "watch": "node scripts/watch.js index.d.ts",
     "build": "typings bundle -o out",
     "source-test": "mocha source-test/*.ts --require ts-node/register",
     "test": "ts-node test/test.ts",

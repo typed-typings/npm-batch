@@ -1,3 +1,3 @@
 var onchange = require('onchange');
 
-onchange(['index.d.ts'], 'npm', ['run', 'build'], {});
+onchange(process.argv.slice(2), 'npm', ['run', 'build'], {});
