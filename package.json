@@ -4,7 +4,8 @@
     "build": "typings bundle -o out",
     "source-test": "mocha source-test/*.ts --require ts-node/register",
     "test": "ts-node test/test.ts",
-    "test-all": "npm test && npm run source-test"
+    "test-all": "npm test && npm run source-test",
+    "prepublish": "typings install"
   },
   "devDependencies": {
     "batch": "^0.5.3",
