@@ -1,4 +1,4 @@
-import events = require('events')
+import events = require('events');
 
 declare class Batch <T> extends events.EventEmitter {
 
@@ -13,7 +13,7 @@ declare class Batch <T> extends events.EventEmitter {
 
 declare namespace Batch {
   export interface Callback <T> {
-    (err: Error, result?: T): any
+    (err: Error, result?: T): any;
   }
 
   export interface ProgressEvent <T> {
