@@ -8,5 +8,3 @@ test('simple', (t) => {
   });
   batch.end(t.end);
 });
-
-
