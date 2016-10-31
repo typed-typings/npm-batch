@@ -13,15 +13,15 @@
   },
   "devDependencies": {
     "batch": "^0.5.3",
-    "blue-tape": "^0.2.0",
-    "mocha": "^2.4.5",
-    "onchange": "^2.1.2",
-    "should": "^8.3.0",
+    "blue-tape": "^1.0.0",
+    "mocha": "^3.1.2",
+    "onchange": "^3.0.2",
+    "should": "^11.1.1",
     "tap-spec": "^4.1.1",
-    "ts-node": "^0.7.1",
+    "ts-node": "^1.6.1",
     "tslint": "github:unional/tslint",
-    "tslint-config-typings": "^0.1.4",
-    "typescript": "^1.8.9",
-    "typings": "^0.7.9"
+    "tslint-config-typings": "^0.2.4",
+    "typescript": "^2.0.6",
+    "typings": "^1.5.0"
   }
 }
