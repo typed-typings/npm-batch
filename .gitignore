@@ -41,5 +41,5 @@ node_modules
 typings
 bundle
 
-# output folder
-out
+# output
+out.d.ts

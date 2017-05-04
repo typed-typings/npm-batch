@@ -2,10 +2,10 @@
   "name": "batch",
   "main": "index.d.ts",
   "homepage": "https://github.com/visionmedia/batch",
-  "ambientDependencies": {
+  "globalDependencies": {
     "node": "registry:dt/node#4.0.0+20160319033040"
   },
-  "ambientDevDependencies": {
+  "globalDevDependencies": {
     "mocha": "registry:dt/mocha#2.2.5+20160317120654"
   },
   "devDependencies": {
